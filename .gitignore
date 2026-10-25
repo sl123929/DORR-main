@@ -1,0 +1,32 @@
+# External environment bundle
+/environments/
+
+# Runtime artifacts
+/saved_models/
+/environment_cache/
+/logs/
+/log/
+/wandb/
+*.log
+*.jsonl
+events.out.tfevents.*
+*.pt
+*.pth
+*.ckpt
+*.pickle
+*.pkl
+*.npy
+*.npz
+
+# Local caches and editors
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+.idea/
+.vscode/
+.DS_Store
+
+# Local downloaded archives
+*.zip
+*.tar.gz
